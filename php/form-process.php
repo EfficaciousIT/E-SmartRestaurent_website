@@ -98,7 +98,7 @@ if (empty($_POST["message"])) {
 
 
 
-$EmailTo = "info@efficacious.co.in";
+$EmailTo = "shubham.efficacious@gmail.com";
 
 $Subject = "New Message Received";
 
@@ -192,7 +192,7 @@ else{
 
 
 
-    $to = "info@efficacious.co.in";
+    $to = "shubham.efficacious@gmail.com";
 
     $from = $_REQUEST['email'];
 
@@ -270,7 +270,7 @@ else{
 
     $rto = $_REQUEST['email'];
 
-    $rfrom = "info@efficacious.co.in";
+    $rfrom = "shubham.efficacious@gmail.com";
 
     $rname = "E-smart Restaurant";
 
