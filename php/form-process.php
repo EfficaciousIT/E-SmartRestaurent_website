@@ -5,13 +5,12 @@ $email= $_POST['email'];
 $address= $_POST['address'];
 $number= $_POST['number'];
 $message= $_POST['message'];
-
-
-
-
+$msg_subject= $_POST['msg_subject'];
 $to = "mailto:shubham.efficacious@gmail.com";
 $subject = "e-smartrestaurant Contact Form";
-$txt ="Name = ". $name . "\r\n Email = " . $email ."\r\n  Address = " . $address . " \r\n   Phone Number = " . $number . " \r\n Message =" . $message;
+$txt ="Name = ". $name . "\r\n Email = " . $email ."\r\n  
+Address = " . $address . " \r\n   Phone Number = " . $number . " \r\n 
+Message =" . $message;
 $headers = "From: " $email;
 
 if($email!=NULL){

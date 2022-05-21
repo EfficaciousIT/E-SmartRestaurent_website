@@ -21,8 +21,10 @@ $("#contactForm")
 function submitForm() {
   // Initiate Variables With Form Content
   var name = $("#name").val();
+  var number = $("#number").val();
   var email = $("#email").val();
-  var msg_subject = $("#msg_subject").val();
+  var address = $("#address").val();
+  var msg_subject = "Enquiry for restaurant application";
   var message = $("#message").val();
 
   $.ajax({
@@ -31,8 +33,12 @@ function submitForm() {
     data:
       "name=" +
       name +
+      "number=" +
+      number +
       "&email=" +
       email +
+      "&address=" +
+      address +
       "&msg_subject=" +
       msg_subject +
       "&message=" +
