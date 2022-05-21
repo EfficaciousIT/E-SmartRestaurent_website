@@ -9,10 +9,10 @@ $message= $_POST['message'];
 
 
 
-$to = "mailto:info@efficacious.co.in";
+$to = "mailto:shubham.efficacious@gmail.com";
 $subject = "e-smartrestaurant Contact Form";
 $txt ="Name = ". $name . "\r\n Email = " . $email ."\r\n  Address = " . $address . " \r\n   Phone Number = " . $number . " \r\n Message =" . $message;
-$headers = "From: mailto:noreply@yoursite.com";
+$headers = "From: " $email;
 
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
